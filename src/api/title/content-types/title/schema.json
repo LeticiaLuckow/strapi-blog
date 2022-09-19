@@ -13,19 +13,24 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "ShortDescription": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "DatePost": {
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "LongDescription": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }
